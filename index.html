@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNGx Stage One | Frontend Profile Creation</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <h1>MY PROFILE PAGE</h1>
+    <main>
+      <div>
+        <img
+          src="/image.jpg"
+          alt="profile-image"
+          data-testid="slackDiaplayImage"
+        />
+        <h2 data-testid="slackUserName">Asaolu James</h2>
+      </div>
+      <section>
+        <a
+          href="https://github.com/jybium/HNG-stage-one"
+          data-testid="githubURL"
+          >Github Link: https://github.com/jybium/HNG-stage-one</a
+        >
+        <p data-testid="myTrack">Track: FRONTEND DEVELOPMENT TRACK</p>
+        <p data-testid="currentDayOfTheWeek" id="Day"></p>
+        <p data-testid="currentUTCTime" id="Time"></p>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
